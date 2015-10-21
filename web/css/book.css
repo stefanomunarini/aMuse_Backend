@@ -1,0 +1,364 @@
+body {
+	/*ADDED WITH JAVASCRIPT: height: 100%*/
+	background-image: url(../images/texture.png);
+	margin: 0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	font-family:'Droid Sans', 'Roboto', sans-serif, Arial;
+	color: #333;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	font-weight: 400;
+	color: #660000;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	font-size: 40px;
+	font-weight: 400;
+	color: #000000;
+}
+
+h3 {
+	margin: 0 10px 0 10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+p {
+	padding: 1em;
+	margin: 0;
+	font-size: 1em;
+}
+
+#left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100%;
+	z-index: 100;
+	background-image: url(../images/previous.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 100%;
+	z-index: 100;
+	background-image: url(../images/next.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.black {
+	color: #000000;
+}
+
+#slider {
+	/*ADDED WITH JAVASCRIPT: width: 100%-130px*/
+	/*ADDED WITH JAVASCRIPT: height: 100%*/
+	position: absolute;
+	background-color: transparent;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+
+#wrapper {
+	/*ADDED WITH JAVASCRIPT: height: 90%*/
+	/*ADDED WITH JAVASCRIPT: margin-top: 5%*/
+	position: absolute;
+	padding: 0;
+	box-shadow: 0px 0px 30px -5px #000000;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+#wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper li {
+	background-color: #fff;
+	list-style: none;
+	position: absolute;
+	border: 1px solid #999999;
+}
+
+#menu {
+	background-color: #999999;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	bottom: -10px;
+	left: -20px;
+	z-index: 150;
+	box-shadow: 0px 0px 30px -5px #000;
+	background-image: url(../images/menu.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#menu2 {
+	background-color: #999999;
+	height: 145px;
+	width: 150px;
+	position: absolute;
+	bottom: -10px;
+	left: -20px;
+	z-index: 149;
+	
+	padding-top: 5px;
+}
+
+.menu2_button {
+	height: 35px;
+	width: 150px;
+}
+
+#popup_share {
+	visibility:hidden;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: rgb(153, 153, 153) transparent;
+	background: rgba(153, 153, 153, 0.6);
+	z-index: 200;
+}
+
+#box_share {
+	margin: auto;
+	width: 550px;
+	height: 300px;
+	background-color: #660000;
+}
+
+#share_link {
+	width: 150px;
+	height: 99px;
+}
+
+#options_link {
+	height: 51px;
+	width: 150px;
+}
+
+.tmp_image {
+	width: 100px;
+	height: 100px;
+}
+
+.ics {
+    width: 20px;
+    height: 20px;
+    float:right;
+    margin-right: -20px;
+    margin-top: -20px;
+    background-image: url(../images/x.png);
+}
+
+/* ############################ COVER ##################################*/
+
+#cover_content {
+	position: absolute;
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+
+#cover_title {
+	color: #333;
+	font-size: 50px;
+	font-family: 'Roboto', 'Droid Sans', sans-serif, Arial;
+	font-weight: 300;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	letter-spacing: -5px;
+}
+
+#cover_description {
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Droid Sans', 'Roboto', sans-serif, Arial;
+	text-align: center;
+	padding: 0 30px 0 30px;
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#cover_image_wrapper {
+	float: right;
+	background-color: #333;
+}
+
+#cover_image {
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+/* ############################ LAYOUT 1 HOR ##################################*/
+
+.image_wrapper_one_hor {
+	position: absolute;
+	width: 100%;
+	top:0;
+	height: 300px;
+	background-color: #333;
+	padding: 20px;
+}
+
+.image_one {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.content_one_hor {
+	height: 250px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding-left: 140px;
+	text-align: right;
+}
+
+.title_one_hor {
+	color: #333;
+	font-size: 30px;
+	font-family: 'Roboto', 'Droid Sans', sans-serif, Arial;
+	font-weight: 300;
+	padding: 0;
+	margin: 10px 30px 0 30px;
+}
+
+.description_one {
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Droid Sans', 'Roboto', sans-serif, Arial;
+	padding: 0 30px 0 30px;
+	margin: 0;
+}
+
+.comment_one {
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Droid Sans', 'Roboto', sans-serif, Arial;
+	padding: 0 30px 0 30px;
+	margin: 30px 0 0 0;
+	font-style:italic;
+}
+
+.author_one {
+	color: #333;
+	font-size: 14px;
+	font-family: 'Droid Sans', 'Roboto',  sans-serif, Arial;
+	font-weight: 300;
+	padding: 0;
+	margin: 30px;
+	margin-top: 10px;
+	font-style:italic;
+}
+
+/* ############################ LAYOUT 1 VER ##################################*/
+
+.content_one_ver {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	left: 0;
+	text-align: right;
+}
+
+.image_wrapper_one_ver {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	background-color: #333;
+	padding: 20px;
+}
+
+.title_one_ver {
+	color: #333;
+	font-size: 30px;
+	font-family: 'Roboto', 'Droid Sans', sans-serif, Arial;
+	font-weight: 300;
+	padding: 0;
+	margin: 30px;
+	margin-bottom: 0px;
+}
+
+/* ############################ LAYOUT 2 ######################################### */
+
+.image_two {
+	float: left;
+	width: 49%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.image_three {
+	float: left;
+	width: 30%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.popup_share_text {
+        font-size: 25px;
+        color: white;
+	padding: 40px 0 10px 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#url_input {
+    width: 450px;
+    margin: 30px;
+}

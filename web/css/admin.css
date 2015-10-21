@@ -1,0 +1,99 @@
+body {
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	font-family: 'Droid Sans', 'Roboto', sans-serif, Arial;
+	color: black;
+	font-size: 16px;
+        text-align: center;
+}
+
+h1 {
+	
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration:none;
+        color: black;
+}
+a:hover{color: red;}
+
+
+.conteiner{
+    border: 2px solid;
+    border-color: #660000;
+    width: 1002px;
+    margin: 40px auto;
+    padding: 0;
+    
+}
+#campi {
+    margin:15px;
+    float: left;
+    height: 250px;
+    width: 500px;
+}
+
+#img_wrapper {
+    margin: 15px;
+    float: right;
+    width: 300px;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+        margin: auto;
+}
+
+.campo {
+    float: left;
+}
+
+.text {
+    float: right;
+    width: 270px;
+}
+
+.riga {
+    width: 500px;
+    height: 25px;
+}
+
+.campo2 {
+    padding-top:3px;
+    float: left;
+}
+
+.text2 {
+    float: right;
+    width: 200px;
+}
+
+.riga2 {
+    width: 380px;
+    height: 25px;
+}
+
+.bottone {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.contenitore{
+    width: 150px;
+    float: left;
+    text-align: center;
+    margin: 30px;
+}

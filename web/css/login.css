@@ -1,0 +1,113 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #660000;
+	font-family: 'Droid Sans', 'Roboto', sans-serif, Arial;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+#login_wrapper {
+	position: absolute;
+	background-color: #ffffff;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	vertical-align: middle;
+	width: 500px;
+	height: 260px;
+	box-shadow: 0px 0px 30px #000;
+}
+
+#logo {
+	margin-top: 20px;
+	height: 62px;
+	width: 500px;
+	background-image: url(../images/logo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#forms {
+	width: 200px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#email_input {
+	width: 200px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+#email_err_input {
+	width: 200px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+#passw_input {
+	width: 200px;
+	height: 25px;
+	margin-bottom: 20px;
+}
+
+#button_login {
+	padding: 0;
+	height: 40px;
+	width: 204px;
+	background-color: #660000;
+	border: none;
+	font-family: 'Droid Sans', 'Roboto', sans-serif, Arial;
+	color: #ffffff;
+	font-size: 16px;
+	margin-left: 150px;
+	text-decoration: none;
+}
+
+a:link {  color:#ffffff}
+a:visited {color:#ffffff}
+a:hover {text-decoration: none; color:#ffffff}
+
+#email_popup {
+	visibility:hidden;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: rgb(153, 153, 153) transparent;
+	background: rgba(153, 153, 153, 0.6);
+}
+
+#email_box {
+	margin: auto;
+	width: 500px;
+	height: 300px;
+}
+
+#email_box_up {
+	background-color: #660000;
+	height: 250px;
+}
+
+#email_box_down {
+	margin-top: 4px;
+	background-color: #660000;
+}
+
+#button_email {
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	width: 300px;
+	background-color: #660000;
+	border: none;
+	font-family: 'Droid Sans', 'Roboto', sans-serif, Arial;
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+}
